@@ -4,7 +4,8 @@
   (:require [advent.puzzle-3 :refer [puzzle-3-a puzzle-3-b]])
   (:require [advent.puzzle-4 :refer [puzzle-4-a puzzle-4-b]])
   (:require [advent.puzzle-5 :refer [puzzle-5-a puzzle-5-b]])
-  (:require [advent.puzzle-6 :refer [puzzle-6-a puzzle-6-b]]))
+  (:require [advent.puzzle-6 :refer [puzzle-6-a puzzle-6-b]])
+  (:require [advent.puzzle-7 :refer [puzzle-7-a puzzle-7-b]]))
 
 (defn -main []
   (println "Puzzle 1a: " (puzzle-1-a))
@@ -19,4 +20,6 @@
   (println "Puzzle 5b: " (puzzle-5-b))
   (println "Puzzle 6a: " (puzzle-6-a))
   (println "Puzzle 6b: " (puzzle-6-b))
+  (println "Puzzle 7a: " (puzzle-7-a))
+  (println "Puzzle 7b: " (puzzle-7-b))
   )
